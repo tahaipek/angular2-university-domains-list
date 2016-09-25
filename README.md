@@ -3,6 +3,8 @@
 
 Thanks [@Hipo](https://github.com/Hipo) for provided source [data](https://github.com/Hipo/university-domains-list).
 
+![enter image description here](https://github.com/tahaipek/angular2-university-domains-list/blob/master/Ng2.png?raw=true)
+
 #Build process
 Clone or download the repo
 If you don't have Angular CLI installed: 
