@@ -3,7 +3,7 @@
 
 Thanks [@Hipo](https://github.com/Hipo) for provided source [data](https://github.com/Hipo/university-domains-list).
 
-![enter image description here](https://github.com/tahaipek/angular2-university-domains-list/blob/master/Ng2.png?raw=true)
+![Api Example built with Angular CLI, RxJS and Webpack](https://github.com/tahaipek/angular2-university-domains-list/blob/master/Ng2.png?raw=true)
 
 #Build process
 Clone or download the repo
@@ -23,3 +23,12 @@ Will kick off a production build with uglifying and tree-shaking.
 This will kick off the server at http://localhost:4200/. Any changes you do to the source files should automatically reload the app.
 
 Click here to see a full list of what you can do with [Angular CLI](https://cli.angular.io/).
+
+
+
+----------
+
+
+"No 'Access-Control-Allow-Origin' header is present on the requested resource." If you get this error, try to run the following line of code.
+
+https://gist.github.com/tahaipek/e489ce16e7d8d0ec7316cf66cc42f47d
