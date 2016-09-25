@@ -3,7 +3,11 @@
 
 Thanks [@Hipo](https://github.com/Hipo) for provided source [data](https://github.com/Hipo/university-domains-list).
 
-![Api Example built with Angular CLI, RxJS and Webpack](https://github.com/tahaipek/angular2-university-domains-list/blob/master/Ng2.png?raw=true)
+
+![Api Example built with Angular CLI, RxJS and Webpack](https://github.com/tahaipek/angular2-university-domains-list/blob/master/Ng2.png?raw=true) 
+
+
+Flag Icons => [A collection of all country flags in SVG — plus the CSS for easier integration](http://flag-icon-css.lip.is/)
 
 #Build process
 Clone or download the repo
