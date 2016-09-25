@@ -1,0 +1,28 @@
+<div class="loading-section" *ngIf="!universities">
+  <div class="cssload-main">
+    <div class="cssload-heart">
+      <span class="cssload-heartL"></span>
+      <span class="cssload-heartR"></span>
+      <span class="cssload-square"></span>
+    </div>
+    <div class="cssload-shadow"></div>
+  </div>
+</div>
+
+
+<div class="row" *ngIf="universities">
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" *ngFor="let uni of universities">
+    <div class="uni">
+      <img *ngIf="uni.alpha_two_code" class="flag" src="https://lipis.github.io/flag-icon-css/flags/4x3/{{uni.alpha_two_code | lowercase}}.svg"
+      />
+      <div class="card card-block uniContent">
+        <h6 class="card-title uniName" title="{{uni.name}}">{{uni.name}}</h6>
+        <div class="card-text uniDetail">
+          <small>
+          {{uni.country}} - <a href="{{uni.web_page}}" target="_blank"><i class="fa fa-link" aria-hidden="true"></i> {{uni.domain}}</a>
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

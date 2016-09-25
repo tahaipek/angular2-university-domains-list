@@ -1,0 +1,9 @@
+<app-header></app-header>
+
+<div id="wrapper" class="container">
+  <h4 class="card-title">{{title}}<small *ngIf="counter"> / Total Record:{{counter}} </small></h4>
+  <app-searchform [(universities)]="universities"></app-searchform>
+
+  <app-university-item [(universities)]="universities"></app-university-item>
+
+</div>

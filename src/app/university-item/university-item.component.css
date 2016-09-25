@@ -1,0 +1,32 @@
+
+.uni {
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    height: 100px;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.uni .card{background-color: transparent; margin: 0;}
+.uniContent{
+    z-index: 2
+}
+.uniName {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.flag {
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+    /*position: absolute;
+    z-index: 1;
+    opacity: 0.03;
+    transform: rotate(340deg) scale(1) skew(1deg) translate(0px);
+    -webkit-transform: rotate(340deg) scale(1) skew(1deg) translate(0px);
+    -moz-transform: rotate(340deg) scale(1) skew(1deg) translate(0px);
+    -o-transform: rotate(340deg) scale(1) skew(1deg) translate(0px);
+    -ms-transform: rotate(340deg) scale(1) skew(1deg) translate(0px);*/
+}
