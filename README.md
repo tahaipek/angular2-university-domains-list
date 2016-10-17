@@ -1,5 +1,8 @@
 # Angular2 University&Domains List		
 [Angular 2](https://github.com/angular/angular) Api Example built with Angular CLI, RxJS and Webpack.		
+
+Updated Angular Dependencies to 2.1.0 and Angular Cli .beta15 to .beta17 ([Issues](https://github.com/tahaipek/angular2-university-domains-list/issues/1))
+
 		
 Thanks [@Hipo](https://github.com/Hipo) for provided source [data](https://github.com/Hipo/university-domains-list).		
 		
